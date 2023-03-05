@@ -1,0 +1,243 @@
+html,
+body {
+    height: 100%;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    overflow: hidden;
+}
+
+:root {
+    --body-color: #B4C5D8;
+    --bg-color: #263A47;
+    --text-color: #FFE8E1;
+}
+
+body {
+    /* background-color: var(--bg-color); */
+    background-color: var(--body-color);
+
+}
+
+.container {
+
+    background-color: var(--bg-color);
+    margin: 3rem auto;
+    width: 60%;
+    height: 80vh;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 8px 1px rgba(255, 232, 225, 0.648); */
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1rem 0;
+
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.social__links {
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+i {
+    color: var(--body-color);
+    font-size: 22px;
+    padding: 7px;
+}
+
+i:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    transition: 0.9s ease-out;
+}
+
+
+.toggle i {
+    color: var(--text-color);
+    font-size: 22px;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 7rem;
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+figcaption {
+
+    color: var(--body-color);
+    font-weight: 600;
+}
+
+#png {
+    background-attachment: fixed;
+    position: absolute;
+    width: 60%;
+    top: 0.5%;
+
+}
+
+.wrapper {
+    background-color: rgba(106, 103, 103, 0);
+}
+
+.quote-btn {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    padding: 6px 108px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 3rem;
+    z-index: 1;
+
+}
+
+
+.quote-btn:hover {
+    background-color: var(--body-color);
+}
+
+
+.quote-btn:active {
+    background-color: var(--body-color);
+    box-shadow: 1px 0 4px 1px rgba(255, 232, 225, 0.648);
+
+}
+
+.author {
+    color: var(--text-color);
+}
+
+footer {
+    color: var(--bg-color);
+    text-align: center;
+    margin-top: -1rem;
+}
+
+/* MOBILE SCREEN RESPONSIVE */
+
+@media screen and (max-width:320px) {
+    html,
+    body {
+        font-size: 8px;
+        height: 100%;
+    }
+
+    .container {
+        height: 90%;
+        width: 90%;
+        border-radius: 10px;
+    }
+    
+    header{
+        width: 90%;
+    }
+    
+    i{
+        font-size: 14px;
+        padding: 4px;
+    }
+    
+    .quotes{
+        margin-top: 11rem;
+        padding: 4rem;
+
+    }
+
+    .quote-btn {
+        
+        padding: 5px 40px;
+        font-size: 14px;
+
+    
+    }
+
+    .logo{
+        font-size: 14px;
+    }
+
+    #png{
+        position: absolute;
+        background-image: url(img/mosque.png\ \(1\).png);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        width: 90%;
+        top: 64%; 
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    
+    .toggle i {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container {
+        width: 90%;
+    }
+
+    h1{
+       font-size: 16px;
+    }
+
+    #png{
+        position: absolute;
+        width: 90%;
+    }
+
+    .quotes{
+        padding: 4rem;
+
+    }
+}
+
+
+
+
+
+/* Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+
+ */
