@@ -102,16 +102,13 @@ figcaption {
 }
 
 #png {
-    background-attachment: fixed;
-    position: absolute;
     width: 60%;
-    top: 0.5%;
+    position: absolute;
+    bottom: 12%;
 
 }
 
-.wrapper {
-    background-color: rgba(106, 103, 103, 0);
-}
+
 
 .quote-btn {
     background-color: var(--text-color);
@@ -150,69 +147,55 @@ footer {
     margin-top: -1rem;
 }
 
+
+
+
 /* MOBILE SCREEN RESPONSIVE */
 
-@media screen and (max-width:320px) {
-    html,
-    body {
-        font-size: 8px;
-        height: 100%;
-    }
-
+@media screen and (min-width:320px) and (max-width:500px) {
     .container {
-        height: 90%;
-        width: 90%;
-        border-radius: 10px;
-    }
-    
-    header{
         width: 90%;
     }
-    
-    i{
-        font-size: 14px;
-        padding: 4px;
+
+    h1{
+       font-size: 14px;
     }
-    
+
+    #png{
+        position: absolute;
+        width: 90%;
+    }
+
     .quotes{
-        margin-top: 11rem;
-        padding: 4rem;
+        padding: 5rem;
 
     }
 
-    .quote-btn {
-        
-        padding: 5px 40px;
+    .quote-btn{
+        padding: 6px 40px;
         font-size: 14px;
 
-    
-    }
+    } 
 
     .logo{
         font-size: 14px;
     }
 
-    #png{
-        position: absolute;
-        background-image: url(img/mosque.png\ \(1\).png);
-        background-size: cover;
-        background-position: 50% 50%;
-        background-attachment: fixed;
-        width: 90%;
-        top: 64%; 
+    i{
+        font-size: 13px;
+        padding: 4px;
     }
 
-    h1{
-        font-size: 16px;
-    }
-
-    
-    .toggle i {
+    .toggle i{
         font-size: 14px;
     }
+
+  
 }
 
-@media screen and (max-width:768px){
+
+
+@media screen and (max-width:1024px){
     .container {
         width: 90%;
     }
@@ -230,14 +213,8 @@ footer {
         padding: 4rem;
 
     }
+
+  
 }
 
 
-
-
-
-/* Mobile devices – 320px — 480px.
-iPads, Tablets – 481px — 768px.
-Small screens, laptops – 769px — 1024px.
-
- */
