@@ -124,7 +124,7 @@ h1 {
     cursor: pointer;
     margin-top: 3rem;
     position: absolute;
-    top: 28vh;
+    top: 30vh;
     z-index: 1;
 
 }
@@ -183,6 +183,7 @@ footer {
     }
 
     .quote-btn{
+        top: 30vh;
         padding: 6px 40px;
         font-size: 14px;
 
