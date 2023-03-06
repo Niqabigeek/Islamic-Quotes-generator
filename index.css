@@ -124,7 +124,7 @@ h1 {
     cursor: pointer;
     margin-top: 3rem;
     position: absolute;
-    top: 30vh;
+    top: 28vh;
     z-index: 1;
 
 }
@@ -178,15 +178,17 @@ footer {
    
 
     .quotes{
-        padding: 5rem;
-
+        padding-right: 5rem;
+        padding-left: 5rem;
+        padding-bottom: 5rem;
+  
     }
-
+  
     .quote-btn{
         top: 30vh;
         padding: 6px 40px;
         font-size: 14px;
-
+  
     } 
 
     .logo{
