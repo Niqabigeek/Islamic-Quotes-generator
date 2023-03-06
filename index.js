@@ -19,8 +19,7 @@ var quotes = [
     ["\"Keep peace and good relations between people.\"", " - مـحـمـد رسـول الله"],
     ["\"In the remembrance of Allah do hearts find rest.\"", " - Qur'an 13:28"],
     ["\"The best among you are those who are the best to their wives.\"", " - مـحـمـد رسـول الله"],
-    ["\"Purification is half of faith.\"", " - مـحـمـد رسـول الله"]
-
+    ["\"Purification is half of faith.\"", " - صلى الله عليه وسلم  ]
 
 ]
 
