@@ -85,9 +85,11 @@ i:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 50vh;
+    height: 60vh;
     position: relative;
-    padding: 7rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    padding-bottom: 7rem;
     color: var(--text-color);
 }
 
@@ -122,7 +124,7 @@ h1 {
     cursor: pointer;
     margin-top: 3rem;
     position: absolute;
-    top: 30vh;
+    top: 28vh;
     z-index: 1;
 
 }
