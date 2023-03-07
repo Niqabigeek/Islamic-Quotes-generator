@@ -178,13 +178,13 @@ footer {
    
 
     .quotes{
-        padding-right: 6rem;
+        padding-right: 2rem;
         padding-bottom: 8rem;
-        padding-left: 6rem;  
+        padding-left: 2rem;  
     }
   
     .quote-btn{
-        top: 36vh;
+        top: 30vh;
         padding: 6px 40px;
         font-size: 14px;
   
