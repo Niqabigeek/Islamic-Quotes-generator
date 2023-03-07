@@ -195,14 +195,14 @@ footer {
     }
 
     i{
-        font-size: 13px;
-        padding: 4px;
+        font-size: 16px;
+        padding: 5px;
     }
 
     .toggle i{
         font-size: 14px;
     }
-
+    
   
 }
 
@@ -210,7 +210,7 @@ footer {
 
 @media screen and (min-width:481px) and (max-width:1024px) {
     .container {
-        width: 90%;
+        width: 90%; 
     }
 
     h1{
