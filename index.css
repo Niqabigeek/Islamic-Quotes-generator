@@ -178,9 +178,9 @@ footer {
    
 
     .quotes{
-       
+        padding-right: 6rem;
         padding-bottom: 8rem;
-  
+        padding-left: 6rem;  
     }
   
     .quote-btn{
@@ -229,9 +229,3 @@ footer {
 
   
 }
-
-
-
-
-
-
